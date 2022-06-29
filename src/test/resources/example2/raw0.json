@@ -1,0 +1,14 @@
+{
+  "up": {
+    "array": [
+      {
+        "a": "wordA0",
+        "b": "wordB0"
+      },
+      {
+        "a": "wordA1",
+        "b": "wordB1"
+      }
+    ]
+  }
+}

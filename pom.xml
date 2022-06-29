@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.baidu.ai</groupId>
+    <artifactId>engine-json-overhaul</artifactId>
+    <version>1.0.1</version>
+
+    <name>engine-json-overhaul</name>
+
+    <distributionManagement>
+        <repository>
+            <id>Baidu_Local</id>
+            <name>Baidu Local Repository</name>
+            <url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local</url>
+        </repository>
+        <snapshotRepository>
+            <id>Baidu_Local_Snapshots</id>
+            <name>Baidu Local Snapshot Repository</name>
+            <url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local_Snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <junit.version>4.12</junit.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <slf4j.version>1.7.21</slf4j.version>
+        <fastjson.version>2.0.7</fastjson.version>
+        <commons.lang3.version>3.12.0</commons.lang3.version>
+        <commons.collections.version>3.2.2</commons.collections.version>
+        <jetbrains.annotations.version>13.0</jetbrains.annotations.version>
+        <aviator.version>5.0.0</aviator.version>
+        <reflections.version>0.10.2</reflections.version>
+        <commons-io.version>2.6</commons-io.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!--      log start      -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons-logging.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <!--      log end      -->
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commons.collections.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>${jetbrains.annotations.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>${reflections.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-console</artifactId>
+            <version>3.0.11</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
