@@ -1,6 +1,5 @@
-[![License Apache 2.0][Apache 2.0 badge]][Apache 2.0]
-[![Build Status][Travis badge]][Travis]
-
+![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.maven/apache-maven)
 ## What this is
 
 This is an SDK component for JSON structure reconstruction. In order to avoid writing too much code in the process of JSON structure conversion, which leads to very redundancy of the project as a whole, an interpreted protocol is implemented here to convert JSON structure and content according to the protocol content.
