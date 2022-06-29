@@ -4,25 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.baidu.ai</groupId>
-    <artifactId>engine-json-overhaul</artifactId>
+    <groupId>io.github.MagicLiuJiayu</groupId>
+    <artifactId>json-overhaul</artifactId>
     <version>1.0.1</version>
 
-    <name>engine-json-overhaul</name>
-
-    <distributionManagement>
-        <repository>
-            <id>Baidu_Local</id>
-            <name>Baidu Local Repository</name>
-            <url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local</url>
-        </repository>
-        <snapshotRepository>
-            <id>Baidu_Local_Snapshots</id>
-            <name>Baidu Local Snapshot Repository</name>
-            <url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local_Snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+    <name>json-overhaul</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

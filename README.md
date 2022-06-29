@@ -10,8 +10,8 @@ Maven:
 
 ```xml
 <dependency>
-    <groupId>com.baidu.ai</groupId>
-    <artifactId>engine-json-overhaul</artifactId>
+    <groupId>io.github.MagicLiuJiayu</groupId>
+    <artifactId>json-overhaul</artifactId>
     <version>1.0.1</version>
 </dependency>
 ```
